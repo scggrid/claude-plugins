@@ -38,15 +38,17 @@ Claude Code에서 두 줄을 차례로 입력합니다.
 이 저장소를 열고 Claude Code에 아래를 붙여 넣습니다.
 
 ```
-/skill-creator 로 skills/<이름>/SKILL.md 를 만들어 줘. CLAUDE.md 규칙을 따라.
+/skill-creator 로 skill을 만들어 줘.
 Skill 이름: <영문-소문자-하이픈>
+어디에 만들지: <Global 사용자용> 혹은 <프로젝트 내부>
 언제 쓰는가: <한 문장>
 입력: <무엇을 보고 시작하는가>
 출력: <어떤 순서로 무엇을 내놓는가>
 하지 말 것: <한두 개>
 필요한 이유: <한 문장>
-빠진 항목은 기존 Skill을 참고해 합리적으로 정하고 가정을 적어 줘.
-답에 따라 결과가 크게 달라지는 것만 AskUserQuestion으로 한 번에 모아 물어봐.
+
+빠진 항목은 기존 Skill을 참고해서 합리적으로 가정해서 적어 줘.
+하지만 답에 따라 결과가 크게 달라지는 것은 AskUserQuestion으로 한 번에 모아 물어봐.
 ```
 
 만든 뒤 `.claude-plugin/plugin.json`과 `marketplace.json`의 version을 올리고 push합니다. 다른 사람은 위 업데이트 명령으로 받습니다.
