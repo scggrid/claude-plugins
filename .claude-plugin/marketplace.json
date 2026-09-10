@@ -4,16 +4,16 @@
   "owner": { "name": "scg" },
   "metadata": {
     "description": "scggrid 팀의 공용 Claude Code Skill 모음",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   "plugins": [
     {
       "name": "scg",
       "description": "scggrid 팀의 공용 Claude Code Skill 모음",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "source": "./",
       "category": "productivity",
-      "keywords": ["diff", "review", "explain", "korean"]
+      "keywords": ["diff", "review", "explain", "korean", "ui", "copy"]
     }
   ]
 }
