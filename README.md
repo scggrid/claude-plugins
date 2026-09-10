@@ -1,14 +1,14 @@
-# scg-claude-plugins
+# claude-plugins
 
-팀에서 함께 쓰는 Claude Code Skill 모음입니다. Plugin 하나(`scg`)에 Skill을 모읍니다.
+팀에서 함께 쓰는 Claude Code Skill 모음입니다. Plugin 하나(`scg`)에 Skill을 모읍니다. 저장소: https://github.com/scggrid/claude-plugins
 
 ## 설치
 
 Claude Code에서 두 줄을 차례로 입력합니다.
 
 ```
-/plugin marketplace add <github-user>/scg-claude-plugins
-/plugin install scg@scg-claude-plugins
+/plugin marketplace add scggrid/claude-plugins
+/plugin install scg@claude-plugins
 ```
 
 새 세션을 열면 Skill이 `/scg:이름`으로 보입니다.
@@ -22,8 +22,8 @@ Claude Code에서 두 줄을 차례로 입력합니다.
 ## 업데이트
 
 ```
-/plugin marketplace update scg-claude-plugins
-/plugin update scg@scg-claude-plugins
+/plugin marketplace update claude-plugins
+/plugin update scg@claude-plugins
 ```
 
 ## Skill 추가하기
