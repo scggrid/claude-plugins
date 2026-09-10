@@ -1,8 +1,8 @@
 {
   "name": "scg",
   "description": "scggrid 팀의 공용 Claude Code Skill 모음",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": { "name": "scg" },
   "repository": "https://github.com/scggrid/claude-plugins",
-  "keywords": ["diff", "review", "explain", "korean", "ui", "copy"]
+  "keywords": ["diff", "review", "explain", "korean", "ui", "copy", "debugging", "deployment"]
 }

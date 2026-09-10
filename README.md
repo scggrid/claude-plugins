@@ -20,6 +20,7 @@ Claude Code에서 두 줄을 차례로 입력합니다.
 | explain-diff | `/scg:explain-diff` | 지금 바뀐 코드를 쉬운 말로 설명합니다. 무엇이 달라지는지, 어디가 바뀌었는지, 확인할 것 하나. |
 | explain-result | `/scg:explain-result` | 방금 받은 답변·명령을 실행하면 어떻게 되는지 설명합니다. 지금 상태 → 실행하면 하는 일 → 달라지는 것 → 결과값. |
 | ui-copy-confirm | 자동 (또는 `/scg:ui-copy-confirm`) | 화면에 보이는 한글 문구(placeholder, 라벨, 에러 메시지 등)를 코드에 쓰기 전에, 기존 컨벤션을 확인하고 문구 후보를 제시해 확정받습니다. |
+| env-issue-triage | `/scg:env-issue-triage` | 화면이 안 열리거나 로딩이 끝나지 않을 때, 코드부터 보지 말고 어느 환경(로컬·프리뷰·운영)이 문제인지 가려내고 고칩니다. |
 
 ## 업데이트
 
