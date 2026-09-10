@@ -40,9 +40,8 @@ Claude Code에서 두 줄을 차례로 입력합니다.
 이 저장소를 열고 Claude Code에 아래를 붙여 넣습니다.
 
 ```
-/skill-creator 로 skill을 만들어 줘.
+현재 scggrid/claude-plugins에 skill-creator skill로 새로운 skill을 추가해줘.
 Skill 이름: <영문-소문자-하이픈>
-어디에 만들지: <Global 사용자용> 혹은 <프로젝트 내부>
 언제 쓰는가: <한 문장>
 입력: <무엇을 보고 시작하는가>
 출력: <어떤 순서로 무엇을 내놓는가>
