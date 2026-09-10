@@ -8,7 +8,7 @@ Claude Code에서 두 줄을 차례로 입력합니다.
 
 ```
 /plugin marketplace add scggrid/claude-plugins
-/plugin install scg@claude-plugins
+/plugin install scg@scg-plugins
 ```
 
 새 세션을 열면 Skill이 `/scg:이름`으로 보입니다.
@@ -22,8 +22,8 @@ Claude Code에서 두 줄을 차례로 입력합니다.
 ## 업데이트
 
 ```
-/plugin marketplace update claude-plugins
-/plugin update scg@claude-plugins
+/plugin marketplace update scg-plugins
+/plugin update scg@scg-plugins
 ```
 
 ## Skill 추가하기
