@@ -1,0 +1,52 @@
+# scg-claude-plugins
+
+팀에서 함께 쓰는 Claude Code Skill 모음입니다. Plugin 하나(`scg`)에 Skill을 모읍니다.
+
+## 설치
+
+Claude Code에서 두 줄을 차례로 입력합니다.
+
+```
+/plugin marketplace add <github-user>/scg-claude-plugins
+/plugin install scg@scg-claude-plugins
+```
+
+새 세션을 열면 Skill이 `/scg:이름`으로 보입니다.
+
+## Skill
+
+| 이름 | 사용 법 | 하는 일 |
+|---|---|---|
+| explain-diff | `/scg:explain-diff` | 지금 바뀐 코드를 쉬운 말로 설명합니다. 무엇이 달라지는지, 어디가 바뀌었는지, 확인할 것 하나. |
+
+## 업데이트
+
+```
+/plugin marketplace update scg-claude-plugins
+/plugin update scg@scg-claude-plugins
+```
+
+## Skill 추가하기
+
+`skill-creator` Skill이 없으면 먼저 설치합니다. 공식 마켓플레이스는 보통 이미 등록되어 있습니다.
+
+```
+/plugin marketplace add anthropics/claude-plugins-official
+/plugin install skill-creator@claude-plugins-official
+```
+
+이 저장소를 열고 Claude Code에 아래를 붙여 넣습니다.
+
+```
+/skill-creator 로 skills/<이름>/SKILL.md 를 만들어 줘. CLAUDE.md 규칙을 따라.
+Skill 이름: <영문-소문자-하이픈>
+언제 쓰는가: <한 문장>
+입력: <무엇을 보고 시작하는가>
+출력: <어떤 순서로 무엇을 내놓는가>
+하지 말 것: <한두 개>
+필요한 이유: <한 문장>
+빠진 항목은 기존 Skill을 참고해 합리적으로 정하고 가정을 적어 줘.
+답에 따라 결과가 크게 달라지는 것만 AskUserQuestion으로 한 번에 모아 물어봐.
+```
+
+만든 뒤 `.claude-plugin/plugin.json`과 `marketplace.json`의 version을 올리고 push합니다. 다른 사람은 위 업데이트 명령으로 받습니다.

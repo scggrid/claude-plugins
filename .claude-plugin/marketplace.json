@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "scg-claude-plugins",
+  "owner": { "name": "scg" },
+  "metadata": {
+    "description": "scg-grid의 공용 skill",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "scg",
+      "description": "scg-grid의 공용 skill",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "productivity",
+      "keywords": ["diff", "review", "korean"]
+    }
+  ]
+}
